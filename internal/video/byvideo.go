@@ -25,7 +25,7 @@ func ExtractSubtitleByVideoID (id string) (map[string]VideoSubtitle,error){
 }
 
 func NavigateToVideo(ctx context.Context, id string) (error) {
-  log.Println("Navigate process...")
+  log.Println("Navigate to " + YOUTUBE_WATCH_URL + id)
  	if err := chromedp.Run(ctx,chromedp.Navigate(YOUTUBE_WATCH_URL + id)); err != nil {
     log.Fatal("Could not navigate to youtube: ", err)
     return err
