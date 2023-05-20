@@ -65,6 +65,8 @@ cat <youtube-id>.json | jq -r 'map(.Text) | join(" ")'
 - [ ] Enhance error handling and user feedback
 - [ ] Improve documentation and code comments
 - [ ] Improve the structure of the result
+- [ ] Implementation of a RestAPI server
+- [ ] Develop a frontend app?
 - [ ] Integration with ChatGPT?
 
 ## Author
