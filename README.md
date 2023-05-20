@@ -15,7 +15,7 @@ ScrapSubtitlesYT is a command-line tool built in Golang that allows you to fetch
 ## Usage
 1. Clone the repository
 ```
-git clone [<repository-url>](https://github.com/devvildaz/ScrapSubtitlesYT/)
+git clone https://github.com/devvildaz/ScrapSubtitlesYT
 cd ScrapSubtitlesYT
 ```
 2. Install dependencies
